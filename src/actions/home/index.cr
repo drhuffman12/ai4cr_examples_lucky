@@ -3,7 +3,8 @@ class Home::Index < BrowserAction
 
   get "/" do
     if current_user?
-      redirect Me::Show
+      # redirect Me::Show
+      redirect Ai4crExamples::Index
     else
       # When you're ready change this line to:
       #
@@ -13,6 +14,8 @@ class Home::Index < BrowserAction
       #
       #   html Marketing::IndexPage
       html Lucky::WelcomePage
+      # html Ai4crExamples::IndexPage
+      # redirect SignIns::New
     end
   end
 end
