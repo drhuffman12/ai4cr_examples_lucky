@@ -58,3 +58,26 @@ shards
 ### Learning Lucky
 
 Lucky uses the [Crystal](https://crystal-lang.org) programming language. You can learn about Lucky from the [Lucky Guides](https://luckyframework.org/guides/getting-started/why-lucky).
+
+## Roadmap
+
+Backpropagation
+- [ ] Circle, 'x', and triangle (Used for unit testing in `ai4cr`, but let's utilize the test code to add a simple UI for it.)
+
+RNN examples
+* Misc inspired by [The Unreasonable Effectiveness of Recurrent Neural Networks]( http://karpathy.github.io/2015/05/21/rnn-effectiveness/) by [Andrej Karpathy](http://karpathy.github.io/). In particular, the `Understanding what’s going on` section. See also [A Recipe for Training Neural Networks](http://karpathy.github.io/2019/04/25/recipe/)
+  - [ ] [Paul Graham generator](http://www.paulgraham.com/articles.html)
+  - [ ] [Shakespeare](http://cs.stanford.edu/people/karpathy/char-rnn/shakespear.txt)
+  - [ ] [Wikipedia](http://prize.hutter1.net/)
+  - [ ] [Algebraic Geometry (Latex)](http://stacks.math.columbia.edu/) and [here](https://github.com/stacks/stacks-project)
+  - [ ] [Linux Source Code](https://github.com/torvalds/linux)
+  - [ ] [1MB of sampled Linux code](http://cs.stanford.edu/people/karpathy/char-rnn/linux.txt)
+  - [ ] [Generating Baby Names](http://www.cs.cmu.edu/afs/cs/project/ai-repository/ai/areas/nlp/corpora/names/) and [here](http://cs.stanford.edu/people/karpathy/namesGenUnique.txt)
+* Other examples
+  - [ ] [Bible]
+    - [ ] [KJV] (http://www.gutenberg.org/cache/epub/10900/pg10900.txt)
+    - [ ] [World English Bible with Deuterocanon](https://ebible.org/find/show.php?id=eng-web) and [here](https://worldenglish.bible/)
+      * [Plain text canon only chapter files](https://ebible.org/Scriptures/eng-web_readaloud.zip)
+      * [MP3 Audio](https://ebible.org/eng-web/mp3/)
+    * See also:
+      * https://christianity.stackexchange.com/questions/16377/what-major-translations-of-the-bible-are-in-the-public-domain
